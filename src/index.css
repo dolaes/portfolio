@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Regular (400) Normal */
+@font-face {
+  font-family: 'NeuePower';
+  src: url('/fonts/NeuePower/NeuePowerTrial-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Bold (700) Normal */
+@font-face {
+  font-family: 'NeuePower';
+  src: url('/fonts/NeuePower/NeuePowerTrial-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Medium (500) Normal */
+@font-face {
+  font-family: 'NeuePower';
+  src: url('/fonts/NeuePower/NeuePowerTrial-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Heavy (900) Normal */
+@font-face {
+  font-family: 'NeuePower';
+  src: url('/fonts/NeuePower/NeuePowerTrial-Heavy.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Light (300) Normal */
+@font-face {
+  font-family: 'NeuePower';
+  src: url('/fonts/NeuePower/NeuePowerTrial-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Ultra (950) Normal */
+@font-face {
+  font-family: 'NeuePower';
+  src: url('/fonts/NeuePower/NeuePowerTrial-Ultra.woff2') format('woff2');
+  font-weight: 950;
+  font-style: normal;
+}
+
+/* Light (300) Oblique */
+@font-face {
+  font-family: 'NeuePower';
+  src: url('/fonts/NeuePower/NeuePowerTrial-LightOblique.woff2') format('woff2');
+  font-weight: 300;
+  font-style: oblique;
+}
+
+/* Medium (500) Oblique */
+@font-face {
+  font-family: 'NeuePower';
+  src: url('/fonts/NeuePower/NeuePowerTrial-MediumOblique.woff2') format('woff2');
+  font-weight: 500;
+  font-style: oblique;
+}
+
+/* Heavy (900) Oblique */
+@font-face {
+  font-family: 'NeuePower';
+  src: url('/fonts/NeuePower/NeuePowerTrial-HeavyOblique.woff2') format('woff2');
+  font-weight: 900;
+  font-style: oblique;
+}
+
+/* Ultra (950) Oblique */
+@font-face {
+  font-family: 'NeuePower';
+  src: url('/fonts/NeuePower/NeuePowerTrial-UltraOblique.woff2') format('woff2');
+  font-weight: 950;
+  font-style: oblique;
+}
+
+/* Bold (700) Oblique */
+@font-face {
+  font-family: 'NeuePower';
+  src: url('/fonts/NeuePower/NeuePowerTrial-BoldOblique.woff2') format('woff2');
+  font-weight: 700;
+  font-style: oblique;
+}
+
+/* Oblique (400) */
+@font-face {
+  font-family: 'NeuePower';
+  src: url('/fonts/NeuePower/NeuePowerTrial-Oblique.woff2') format('woff2');
+  font-weight: 400;
+  font-style: oblique;
+}
+
+html {
+  scroll-behavior: smooth;
+}
